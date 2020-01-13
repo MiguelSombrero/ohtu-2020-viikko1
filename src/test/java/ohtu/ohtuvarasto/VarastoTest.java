@@ -34,6 +34,8 @@ public class VarastoTest {
     @Test
     public void negatiivisellaTilavuudellaKayttokelvotonVarasto2() {
     	Varasto v = new Varasto(-5, 5);
+    	
+    	// tilavuus ei voi olla negatiivinen
     	assertEquals(0, v.getTilavuus(), vertailuTarkkuus);
     }
     
