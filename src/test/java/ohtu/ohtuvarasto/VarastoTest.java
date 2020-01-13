@@ -34,7 +34,7 @@ public class VarastoTest {
     @Test
     public void negatiivisellaTilavuudellaKayttokelvotonVarasto2() {
     	Varasto v = new Varasto(-5, 5);
-    	assertEquals(1, v.getTilavuus(), vertailuTarkkuus);
+    	assertEquals(0, v.getTilavuus(), vertailuTarkkuus);
     }
     
     @Test
