@@ -1,3 +1,7 @@
 *.tmp
 build/
 .gradle/
+/bin/
+.DS_Store
+.classpath
+.project
